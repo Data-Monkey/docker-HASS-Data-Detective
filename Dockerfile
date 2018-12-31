@@ -25,6 +25,7 @@ RUN apt-get update \
     scrapy==1.5.1 \
     SQLAlchemy==1.2.15 \
     homeassistant \
+    calmap \
 
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
